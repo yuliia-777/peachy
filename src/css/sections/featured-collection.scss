@@ -1,0 +1,39 @@
+[data-section-type="featured-collection"] {
+  button {
+    letter-spacing: .12rem;
+    transition: all .3s ease;
+
+    &:hover,
+    &:active {
+      box-shadow: 5px 5px #242323;
+      border-radius: 2px;
+      transition: all .3s ease;
+    }
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .swiper-col {
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background-color: #FFD11F;
+    }
+    .swiper-pagination.swiper-pagination-bullets {
+      bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      span {
+        color: #fff;
+        text-shadow: 2px 2px #242323;
+      }
+    }
+    .swiper-col {
+      margin-bottom: 50px;
+    }
+  }
+}
